@@ -6,13 +6,12 @@
 package ex1;
 
 import javax.ejb.Local;
-import javax.ejb.Remote;
 
 /**
  *
  * @author mpastore
  */
-@Remote
-public interface HelloService {
-    public String sayHello(String name);
+@Local
+public interface Hello extends HelloService{
+    
 }

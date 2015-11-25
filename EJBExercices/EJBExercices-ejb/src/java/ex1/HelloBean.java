@@ -14,7 +14,7 @@ import javax.ejb.Stateless;
  */
 @Stateless(name = "HelloManager")
 @LocalBean
-public class HelloBean implements HelloService {
+public class HelloBean implements Hello {
 
     
     /**
